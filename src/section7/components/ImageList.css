@@ -1,0 +1,12 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap:0 10px;
+    /* 横的 高度 是 10px 然后 利用 js 去做一些 算法 去实现 每个完整的照片 都有相同的 grid-gap  */
+    grid-auto-rows: 10px;
+}
+
+.image-list img {
+    width: 250px;
+    grid-row-end: span 2;
+}

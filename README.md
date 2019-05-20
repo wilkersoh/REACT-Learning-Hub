@@ -5,7 +5,7 @@
 ### Folder 文件
 1. section4 - fn里的props
 2. section6 - Component LifreCycle步骤 
-3. section7 - event方法 | This in React (超重要) | 在class里的props怎样写
+3. section7 - event方法 | This in React (超重要) | 在class里的props怎样写 | axios | createRef()
 
 * this.state 
 1. 必须是在 constructor 里
